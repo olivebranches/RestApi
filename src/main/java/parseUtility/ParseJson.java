@@ -9,7 +9,7 @@ import org.json.simple.parser.ParseException;
 import request.Request;
 
 public class ParseJson {
-    static String URL = "https://jsonmock.hackerrank.com/api/football_matches";
+    private static String URL = "https://jsonmock.hackerrank.com/api/football_matches";
 
     public static int getTotalDrawCount(int year){
         int totalDraws = 0;

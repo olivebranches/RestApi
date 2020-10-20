@@ -1,8 +1,6 @@
 package football;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import football.TeamData;
-import football.FootballJson;
 import request.Request;
 
 import java.io.IOException;
@@ -48,6 +46,4 @@ public class FootballJsonUtil {
         }
         return totalGoals;
     }
-
-
 }

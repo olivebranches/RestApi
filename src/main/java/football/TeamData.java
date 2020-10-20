@@ -43,23 +43,23 @@ public class TeamData {
         return Objects.hash(competition, year, round, team1, team2, team1goals, team2goals);
     }
 
-    public String getYear() {
+    String getYear() {
         return year;
     }
 
-    public String getTeam1() {
+    String getTeam1() {
         return team1;
     }
 
-    public String getTeam2() {
+    String getTeam2() {
         return team2;
     }
 
-    public String getTeam1goals() {
+    String getTeam1goals() {
         return team1goals;
     }
 
-    public String getTeam2goals() {
+    String getTeam2goals() {
         return team2goals;
     }
 

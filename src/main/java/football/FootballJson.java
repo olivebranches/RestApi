@@ -40,11 +40,11 @@ public class FootballJson {
         return result;
     }
 
-    public int getTotal_pages() {
+    int getTotal_pages() {
         return total_pages;
     }
 
-    public TeamData[] getData() {
+    TeamData[] getData() {
         return data;
     }
 
